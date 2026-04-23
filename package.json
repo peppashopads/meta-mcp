@@ -16,7 +16,7 @@
     "list:tools": "tsx list-tools.js",
     "test:api": "tsx test-api.js",
     "lint": "eslint src/**/*.ts",
-    "prepare": "npm run build",
+    "prepare": "echo skip",
     "vercel-build": "npm run build",
     "setup": "node scripts/setup-mcp.js",
     "setup:mcp": "node scripts/setup-mcp.js",
